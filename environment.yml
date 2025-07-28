@@ -1,0 +1,19 @@
+name: avila_2025_wmt
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - cftime
+  - matplotlib
+  - xarray
+  - cartopy
+  - cmocean
+  - xgcm
+  - xbudget
+  - pip
+  - pip:
+    - git+https://github.com/NOAA-GFDL/xwmt.git@main
+    - git+https://github.com/jkrasting/momgrid.git@main
+    - git+https://github.com/jkrasting/cmip_basins.git@main
