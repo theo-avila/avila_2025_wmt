@@ -18,7 +18,7 @@ This repository contains code, analysis scripts, and Jupyter Notebooks for **Wat
 ## Core Functionality:
 
 - **Water Mass Transformation (WMT) pipeline**:  
-  Compute and visualize transformations (λ=ρ) from surface fluxes and model outputs.
+  Compute transformations (λ=ρ) from model surface fluxes outputs for monthly climatologies, time average, and mapping back to **x**-space. 
 
 - **Regional analysis**:  
   Built-in support for analyzing certain basins, or by creating own basins. 
