@@ -46,6 +46,9 @@ this repository is still being developed.
 - **Mapping to *x*-space is very slow:**  
   Always test mapping procedures first on short periods (1–3 years). For longer jobs, use `sbatch` or run processes in the background. 
 
-- **Sign Convention Flip**
+- **Sign Convention Flip**  
   SWMT should be calculated with the appropriate conventions, however a sign flip at the end is required such that positive values are increase in mass. It is not appropriate to flip the dictionary sign conventions before the transformation calculation.
+
+- **Ocean Only**  
+  Salinity restoring terms must be added to the dictionaries if using ocean-only experiments.
 
