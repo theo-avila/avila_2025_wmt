@@ -9,24 +9,9 @@ Theo C. Avila<sup>1*</sup>, Jacob M. Steinberg<sup>2</sup>, John P. Krasting<sup
 
 <sup>*</sup> Correspondence should be addressed to: ctavila2@illinois.edu  
 
-## Description
-
-This repository contains code, analysis scripts, and Jupyter Notebooks for **Water Mass Transformation and Variability in the Nordic Seas**. We analyze λ = ρ transformations within coupled GFDL models.
-
----
-
 ## Core Functionality:
 
-- **Water Mass Transformation (WMT) pipeline**:  
-  Compute transformations (λ=ρ) from model surface fluxes outputs for monthly climatologies, time average, and mapping back to **x**-space. 
-
-- **Regional analysis**:  
-  Built-in support for analyzing certain basins, or by creating own basins. 
-
-- **Internal variability estimation**:  
-  Block-bootstrap sampling tools to look at internal variability in the WMT results. 
-
----
+  Compute transformations (λ=ρ) from model surface fluxes outputs for monthly climatologies, time average, and mapping back to **x**-space. Built-in support for analyzing certain basins, or by creating own basins. There is built in subsetting by year, and block bootstrapping functionality for internal variability.
 
 ## Example Notebooks:
 
@@ -40,9 +25,9 @@ This repository contains code, analysis scripts, and Jupyter Notebooks for **Wat
 
 ## Dependencies 
 
-This repository uses the environment available at /nbhome/ogrp/python/envs/dev. If unable to access this environment, a minimal installation might be similar to environment.yml, however this is missing the esnb notebook. 
+This repository is configured for use on GFDL’s **ppan** partition (post‑processing & analysis nodes) with the Conda environment at `/nbhome/ogrp/python/envs/dev`. If you can’t access that, recreate a minimal equivalent via `environment.yml` (note: the `esnb` notebook isn’t included).
 
-### Important Notes / To Do
+## Important Notes / To Do
 
 this repository is still being developed.
 
