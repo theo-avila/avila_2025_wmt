@@ -11,7 +11,7 @@ Theo C. Avila<sup>1*</sup>, Jacob M. Steinberg<sup>2</sup>, John P. Krasting<sup
 
 ## Core Functionality:
 
-  Compute transformations (λ=ρ) from model surface fluxes outputs for monthly climatologies, time average, and mapping back to **x**-space. Built-in support for analyzing certain basins, or by creating own basins. There is built in subsetting by year, and block bootstrapping functionality for internal variability.
+  Compute transformations (λ=ρ) from model surface fluxes outputs for monthly climatologies, time average, and mapping back to **x**-space. Built-in support for analyzing certain basins, or by creating own basins. There is built in subsetting by year, block bootstrapping functionality for internal variability, and for seasonal / yearly averages. This repo runs on `xwmt` (Drake et al 2025), and uses some code from Tesdal et al (2023). 
 
 ## Example Notebooks:
 
@@ -30,6 +30,18 @@ Theo C. Avila<sup>1*</sup>, Jacob M. Steinberg<sup>2</sup>, John P. Krasting<sup
 ## Dependencies 
 
 This repository is configured for use on GFDL’s **ppan** partition (post‑processing & analysis nodes) with the Conda environment at `/nbhome/ogrp/python/envs/dev`. If you can’t access that, recreate a minimal equivalent via `environment.yml` (note: the `esnb` notebook isn’t included). Volume Transport notebooks may use `/nbhome/Jacob.Steinberg/miniconda3/envs/mass_transport/`, as dependency conflicts currently cause issues with regionate and sectionate with the esnb package. 
+
+## Tasks/Questions
+
+- Shifts in Location of dense water formation in Arctic and relationship to Interior Transport (Årthun et al. 2025)
+  - Can decreases (changes) in return flow in Barents sea be related to shifts in dense water formation? (Heukamp et al. 2025)
+- 
+  
+## References
+- Årthun, M., et al. (2025). Atlantification drives recent strengthening of the Arctic overturning circulation. Science Advances, 11(28), eadu1794. https://doi.org/10.1126/sciadv.adu1794
+- Drake, H. F., et al. (2025). Water mass transformation budgets in finite-volume generalized vertical coordinate ocean models. Journal of Advances in Modeling Earth Systems, 17(3), e2024MS004383. https://doi.org/10.1029/2024MS004383
+- Heukamp, F. O., et al. (2025). Atlantic water recirculation in the northern Barents Sea affects winter sea ice extent. Nature Communications, 16(1), 5148. https://doi.org/10.1038/s41467-025-59992-9
+- Tesdal, J.-E., et al. (2023). Revisiting Interior Water Mass Responses to Surface Forcing Changes and the Subsequent Effects on Overturning in the Southern Ocean. Journal of Geophysical Research: Oceans, 128(3), e2022JC019105. https://doi.org/10.1029/2022JC019105
 
 ## Important Notes / To Do
 
