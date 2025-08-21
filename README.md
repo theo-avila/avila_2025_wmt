@@ -23,13 +23,13 @@ Theo C. Avila<sup>1*</sup>, Jacob M. Steinberg<sup>2</sup>, John P. Krasting<sup
   **Experiment Comparison**  
   WMT analysis across multiple experiments and evaluate differences in transformation rates, variability, and dense water formation.
 
-  - [`notebooks/single_experiment.ipynb`](notebooks/volume_transport_regionate/):  
+- [`notebooks/single_experiment.ipynb`](notebooks/volume_transport_regionate/):  
   **Interior Volume Transport**  
   Interior Volume Transport in the Arctic, using regionate & sectionate but not esnb. These notebooks have issues on the `/nbhome/ogrp/python/envs/dev` environment, and instead users should may use `/nbhome/Jacob.Steinberg/miniconda3/envs/mass_transport/`. These notebooks have certain parts of them hard-coded (reading models in / static files), and could benefit from esnb functionality but many model variables are not in the catalogs. 
 
 ## Dependencies 
 
-This repository is configured for use on GFDL’s **ppan** partition (post‑processing & analysis nodes) with the Conda environment at `/nbhome/ogrp/python/envs/dev`. If you can’t access that, recreate a minimal equivalent via `environment.yml` (note: the `esnb` notebook isn’t included).
+This repository is configured for use on GFDL’s **ppan** partition (post‑processing & analysis nodes) with the Conda environment at `/nbhome/ogrp/python/envs/dev`. If you can’t access that, recreate a minimal equivalent via `environment.yml` (note: the `esnb` notebook isn’t included). Volume Transport notebooks may use `/nbhome/Jacob.Steinberg/miniconda3/envs/mass_transport/`, as dependency conflicts currently cause issues with regionate and sectionate with the esnb package. 
 
 ## Important Notes / To Do
 
