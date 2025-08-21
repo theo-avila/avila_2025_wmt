@@ -23,7 +23,7 @@ Theo C. Avila<sup>1*</sup>, Jacob M. Steinberg<sup>2</sup>, John P. Krasting<sup
   **Experiment Comparison**  
   WMT analysis across multiple experiments to evaluate differences in transformation rates, variability, and dense water formation.
 
-- [`notebooks/single_experiment.ipynb`](notebooks/volume_transport_regionate/):  
+- [`notebooks/volume_transport_regionate/`](notebooks/volume_transport_regionate/):  
   **Interior Volume Transport**  
   Interior Volume Transport in the Arctic, using regionate & sectionate but not esnb. These notebooks have issues on the `/nbhome/ogrp/python/envs/dev` environment, and instead users may use `/nbhome/Jacob.Steinberg/miniconda3/envs/mass_transport/`. These notebooks have certain parts of them hard-coded (reading models in / static files), and could benefit from esnb functionality, but many model variables are not in the catalogs. 
 
